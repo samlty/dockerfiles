@@ -5,7 +5,7 @@
 FROM alpine
 MAINTAINER kev <noreply@easypi.pro>
 
-ENV TOKEN 00000000-0000-0000-0000-000000000000
+ENV TOKEN 12345678as
 
 RUN set -xe \
     && apk add -U aria2 \
